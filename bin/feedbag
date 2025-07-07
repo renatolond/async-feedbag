@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 require "rubygems"
-require "feedbag-async"
+require "async-feedbag"
 
 def usage
   %(
@@ -17,7 +17,7 @@ end
 
 ARGV.each do |url|
   puts "== #{url}:"
-  feeds = FeedbagAsync.find url
+  feeds = AsyncFeedbag.find url
   if feeds.empty?
     puts "   no feeds found!"
   else
