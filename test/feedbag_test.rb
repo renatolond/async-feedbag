@@ -29,10 +29,10 @@ class AsyncFeedbagTest < Test::Unit::TestCase
     setup do
       @feeds = ["https://specialmomsblog.mom/feed", "http://lurenbijdeburen.wordpress.com/feed"]
       stub_request(:get, "http://lurenbijdeburen.wordpress.com/feed")
-        .with(headers: { "User-Agent" => "AsyncFeedbag/2.0.0" })
+        .with(headers: { "User-Agent" => "AsyncFeedbag/#{AsyncFeedbag::VERSION}" })
         .to_return(File.read("test/webfixtures/lurenbijdeburen.wordpress.com.feed"))
       stub_request(:get, "https://specialmomsblog.mom/feed")
-        .with(headers: { "User-Agent" => "AsyncFeedbag/2.0.0" })
+        .with(headers: { "User-Agent" => "AsyncFeedbag/#{AsyncFeedbag::VERSION}" })
         .to_return(File.read("test/webfixtures/specialmomsblog.feed"))
     end
     should "find atom feed" do
