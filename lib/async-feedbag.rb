@@ -18,7 +18,6 @@ class AsyncInternetWithRedirect < Async::HTTP::Internet
 end
 
 class AsyncFeedbag
-  VERSION = "2.0.0"
   CONTENT_TYPES = [
     "application/x.atom+xml",
     "application/atom+xml",
