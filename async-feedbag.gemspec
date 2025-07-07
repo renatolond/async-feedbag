@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/async-feedbag"
+require_relative "lib/async-feedbag/version"
 
 Gem::Specification.new do |gem|
   gem.name = "async-feedbag"
