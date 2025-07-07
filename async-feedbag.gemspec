@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.email = "renato@lond.com.br"
 
   gem.extra_rdoc_files = ["README.markdown", "COPYING"]
-  gem.files = ["lib/async-feedbag.rb", "bin/feedbag"]
+  gem.files = ["lib/async-feedbag.rb", "lib/async-feedbag/version.rb", "bin/feedbag"]
   # gem.has_rdoc = true
   gem.rdoc_options = ["--main", "README.markdown"]
   gem.summary = "RSS/Atom feed auto-discovery tool"

@@ -3,6 +3,8 @@
 
 # See COPYING before using this software.
 
+require_relative "async-feedbag/version"
+
 require "nokogiri"
 require "async/http/internet/instance"
 require "async/http/middleware/location_redirector"
