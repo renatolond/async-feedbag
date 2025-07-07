@@ -20,7 +20,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency "async-http", ">= 0.89"
   gem.add_dependency "nokogiri", "~> 1.8", ">= 1.8.18"
 
-  gem.required_ruby_version = ">= 3.0"
+  gem.required_ruby_version = ">= 3.2"
   gem.bindir = "bin"
   gem.executables = ["feedbag"]
   gem.metadata["rubygems_mfa_required"] = "true"
