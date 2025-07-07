@@ -20,10 +20,6 @@ Async-Feedbag is a fork of Ruby's favorite auto-discovery tool/library, using [a
 
     $ gem install async-feedbag
 
-Or just grab async-feedbag.rb and use it on your own project:
-
-    $ wget https://raw.githubusercontent.com/renatolond/feedbag/main/lib/async-feedbag.rb
-
 You can also use the command line tool for quick queries, if you install the gem:
 
     » feedbag https://www.ruby-lang.org/en/
